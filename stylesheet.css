@@ -1,20 +1,27 @@
 /* css för sida 1*/
 .navbar {
-    
+    grid-area: N;
+    background-color: black;
 }
 
 .MainGallery {
-
+    grid-area: MG;
 }
 
 .MainContent {
-
+    grid-area: MC;
 }
 
 .Footer {
-
+    grid-area: F;
 }
 
 body {
-    
+    display: grid;
+    grid-template-areas: 
+    ' N N N N '
+    ' MG MG MG MG '
+    ' MC MC MC MC '
+    ' F F F F'
+    ;
 }
