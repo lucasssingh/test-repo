@@ -19,9 +19,7 @@
 body {
     display: grid;
     grid-template-areas: 
-    ' N N N N '
-    ' MG MG MG MG '
-    ' MC MC MC MC '
-    ' F F F F'
-    ;
-}
+        "N N N"
+        "MG MG MG"
+        "MC MC MC" ;
+  }
