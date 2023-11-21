@@ -4,12 +4,10 @@ body {
   background-color: black;
   display: grid;
   grid-template-areas: 
-  "N"
-  "MG"
-  "MG"
-  "MC"
-  "MC"
-  "F"
+  'N'
+  'MG'
+  'MC'
+  'F'
   ;
   grid-gap: 10px;
   padding: 10px;
