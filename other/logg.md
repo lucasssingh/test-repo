@@ -14,7 +14,7 @@ Sida 2 :
 3. Fyll med CSS
 
 ### Lektion 7/11
-Arbetade med kravspecificationerna. Skapade en wireframe för 3 sidor. Wireframen 
+Arbetade med kravspecificationerna. Skapade en wireframe för 3 sidor. 
 
 ### Lektion 14/11
 Ingen lektion
@@ -29,4 +29,11 @@ Skapade en grid för hemsidan med hjälp av grid areas.
 
 La in en bild från serien under classen "MainGallery".
 
-Fixade så att grid-area fungerar
+Fixade så att grid-area fungerar. Problem med "" istället för ''. 
+
+Att göra hemma : 
+Lägga till content till dem andra två grid areas (MainContent och Footer)
+Skapa HTML och CSS för sida två (inte hur man går mellan sidorna)
+
+Sammanfattning av lektion : 
+    Den här lektionen så har jag skapat ett grid med 4 klasser (Navbar, MainGallery, MainContent och Footer). Under Navbar så har jag skapat en navbar som ska i framtiden länka till de två andra sidorna. Genom hover funktionen i CSS så har jag gjort så att de två list elementen, som är knapparna för att gå mellan sidor, byter backgroundsfärg när musen hovrar över dem. Under MainGallery så har jag lagt in en bild från serien. 
