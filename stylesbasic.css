@@ -12,7 +12,7 @@ button {
 }
 
 .HeaderLinks {
-  text-align: left;
+  text-align: right;
 }
 
 main, footer, header {
@@ -22,7 +22,7 @@ main, footer, header {
 }
 
 header h1 {
-  font-size: 35px;
+  font-size: 7vw;
 }
 
 

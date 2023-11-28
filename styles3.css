@@ -4,6 +4,10 @@
     justify-content: space-around;
 }
 
+.thread {
+    max-width: 40%;
+}
+
 .thread, .post-thread {
     margin-bottom: 20px;
     border: 1px solid #ccc;

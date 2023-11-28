@@ -38,6 +38,6 @@
     }
 
     .outer img:hover {
-        opacity: 0%;
+        opacity: 0.3;
     }
 }
