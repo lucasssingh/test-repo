@@ -30,3 +30,7 @@ main img {
   max-width: 100%; /* max width och height gör så att bilden scale'ar längst width axeln */
   height: auto;
 }
+
+@media (max-width: 450px) {
+  
+}
