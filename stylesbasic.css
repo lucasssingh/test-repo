@@ -4,3 +4,29 @@ body { /* det här kan flyttas till en common css fil senare */
     font-family: Arial, sans-serif;
     background-color: black;
   }
+
+  button {
+    background-color: black;
+    border-color: white;
+    color: white;
+  }
+  
+  .HeaderLinks {
+    text-align: left;
+  }
+
+  main, footer, header {
+    text-align: center;
+    color: white;
+    padding: 20px;
+  }
+  
+  header h1 {
+    font-size: 35px;
+  }
+  
+  header a {
+    font-size: 20px;
+    color: white;
+  }
+  

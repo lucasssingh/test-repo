@@ -2,31 +2,6 @@
 /* css för sida 1*/
 
 
-  
-button {
-  background-color: black;
-  border-color: white;
-  color: white;
-}
-
-.HeaderLinks {
-  text-align: left;
-}
-
-header h1 {
-  font-size: 35px;
-}
-
-header a {
-  font-size: 20px;
-  color: white;
-}
-
-main, footer, header {
-  text-align: center;
-  color: white;
-  padding: 20px;
-}
 
 main img {
   max-width: 100%; /* max width och height gör så att bilden scale'ar längst width axeln */
