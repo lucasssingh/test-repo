@@ -9,7 +9,10 @@
     border: 1px solid #ccc;
     padding: 10px;
     background-color: white;
+    color: black;
 }
+
+
 
 @media (max-width:500px) {
     .Thread {
