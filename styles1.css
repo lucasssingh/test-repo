@@ -1,68 +1,19 @@
 
 /* css för sida 1*/
 body {
-  background-color: black;
-  display: grid;
-  grid-template-areas: 
-  'N'
-  'MG'
-  'MC'
-  'F'
-  ;
-  grid-gap: 10px;
-  padding: 10px;
 }
 
 header {
 }
   
 .HeaderLinks {
-
 }
 
 .HeaderLinks a {
-  color: black;
-}
-
-.Logo {
-  font-size: 32px;
-  color: white;
-}
-
-.Menus {
-  display: flex;
-  gap: 1em;
-  font-size: 18px;
-}
-
-.Menus li:hover {
-  background-color: gray;
-  color: white;
-  border-radius: 5px;
-  transition: 0.3s ease;
-} 
-
-.Menus li {
-  padding: 5px 14px;
-  list-style-type: none;
-}
-
-.Menus a {
-  color: white;
-}
-
-.Grid {
-  background-color: blue;
-}
-
-.MainGallery {
-  grid-area: MG;
 }
 
 .MainContent {
-  grid-area: MC;
 }
 
 .Footer {
-  grid-area: F;
 }
