@@ -31,12 +31,13 @@ header a {
   color: white;
 }
   
-  @media (max-width: 450px) {
-    .HeaderLinks {
-      text-align: center;
-    }
-  
-    main, footer {
-      padding: 10px;
-    }
+@media (max-width: 450px) {
+  .HeaderLinks {
+    text-align: center;
   }
+
+  main, footer {
+    padding: 10px;
+  }
+}
+
