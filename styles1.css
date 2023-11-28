@@ -7,9 +7,6 @@ body { /* det här kan flyttas till en common css fil senare */
   background-color: black;
 }
 
-header {
-
-}
   
 button {
   background-color: black;
@@ -17,17 +14,14 @@ button {
   color: white;
 }
 
-main {
-
-}
-
 .HeaderLinks {
+  text-align: left;
 }
 
 .HeaderLinks a {
 }
 
-main, footer {
+main, footer, header {
   text-align: center;
   color: white;
   padding: 20px;
