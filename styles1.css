@@ -11,8 +11,14 @@ header {
 
 }
   
+button {
+  background-color: black;
+  border-color: white;
+  color: white;
+}
+
 main {
-  
+
 }
 
 .HeaderLinks {
@@ -22,7 +28,9 @@ main {
 }
 
 .MainContent {
+  color: white;
 }
 
 footer {
+  color: white;
 }
