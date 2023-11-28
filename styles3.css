@@ -4,7 +4,7 @@
     justify-content: space-around;
 }
 
-.thread, .post-thread, .respond {
+.thread, .post-thread {
     margin-bottom: 20px;
     border: 1px solid #ccc;
     padding: 10px;
