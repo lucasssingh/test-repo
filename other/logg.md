@@ -37,3 +37,12 @@ Skapa HTML och CSS för sida två (inte hur man går mellan sidorna)
 
 Sammanfattning av lektion : 
     Den här lektionen så har jag skapat ett grid med 4 klasser (Navbar, MainGallery, MainContent och Footer). Under Navbar så har jag skapat en navbar som ska i framtiden länka till de två andra sidorna. Genom hover funktionen i CSS så har jag gjort så att de två list elementen, som är knapparna för att gå mellan sidor, byter backgroundsfärg när musen hovrar över dem. Under MainGallery så har jag lagt in en bild från serien. 
+
+### Lektion 28/11
+
+Tog bort grid systemet helt
+Gjorde om navbar -> header så att buttons kan aligna till vänster vid desktop size och center vid phone screen size via media query. 
+
+Skapade en genensam sida för css där majoriteten av css finns, som ska gälla för alla sidor. 
+
+Började med sida 2 genom att skapa ett template för 10 bilder som wrappar med flex.
