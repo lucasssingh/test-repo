@@ -13,17 +13,14 @@ body {
   padding: 10px;
 }
 
-.navbar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: black;
-  color: black;
-  grid-area: N;
-  }
+header {
+}
   
-.NavbarLinks a {
+.HeaderLinks {
+
+}
+
+.HeaderLinks a {
   color: black;
 }
 
