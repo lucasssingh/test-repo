@@ -4,22 +4,40 @@
     justify-content: space-around;
 }
 
+.outer {
+    position: relative;
+    text-align: center;
+}
+
 
 .outer img {
     max-width: 200px;
     height: auto;
     padding: 10px;
-    position: relative;
+    transition: opacity 500ms ease-in-out;
 }
 
 
 @media (max-width:500px) {
+    .outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .outer p {
+        z-index: -1;
+        position: relative;
+        left: -50%;
+    }
+
     .outer img {
-        max-width: 90%;
+        display: inline-block;
+        min-width: 90vw;
+        z-index: 0;
     }
 
-    .inner {
-        position: absolute;
+    .outer img:hover {
+        opacity: 0%;
     }
-
 }
