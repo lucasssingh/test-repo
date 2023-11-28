@@ -2,18 +2,8 @@
 /* css för sida 1*/
 
 
-
 main img {
   max-width: 100%; /* max width och height gör så att bilden scale'ar längst width axeln */
   height: auto;
 }
 
-@media (max-width: 450px) {
-  .HeaderLinks {
-    text-align: center;
-  }
-
-  main, footer {
-    padding: 10px;
-  }
-}

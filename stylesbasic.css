@@ -30,3 +30,12 @@ body { /* det här kan flyttas till en common css fil senare */
     color: white;
   }
   
+  @media (max-width: 450px) {
+    .HeaderLinks {
+      text-align: center;
+    }
+  
+    main, footer {
+      padding: 10px;
+    }
+  }
