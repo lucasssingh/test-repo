@@ -18,8 +18,7 @@ button {
   text-align: left;
 }
 
-.HeaderLinks a {
-}
+
 
 main, footer, header {
   text-align: center;
@@ -27,3 +26,7 @@ main, footer, header {
   padding: 20px;
 }
 
+main img {
+  max-width: 100%; /* max width och height gör så att bilden scale'ar längst width axeln */
+  height: auto;
+}
