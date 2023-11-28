@@ -27,10 +27,14 @@ main {
 .HeaderLinks a {
 }
 
-.MainContent {
+main {
+  text-align: center;
   color: white;
+  padding: 20px;
 }
 
 footer {
+  padding: 20px;
+  text-align: center;
   color: white;
 }
