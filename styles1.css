@@ -18,7 +18,13 @@ button {
   text-align: left;
 }
 
+header h1 {
+  font-size: 35px;
+}
 
+header a {
+  font-size: 20px;
+}
 
 main, footer, header {
   text-align: center;
@@ -32,5 +38,11 @@ main img {
 }
 
 @media (max-width: 450px) {
-  
+  .HeaderLinks {
+    text-align: center;
+  }
+
+  main, footer {
+    padding: 10px;
+  }
 }
